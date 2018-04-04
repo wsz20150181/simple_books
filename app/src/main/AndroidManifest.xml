@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,14 +17,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ReadingActivity"
-            android:label="@string/title_activity_reading"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="com.example.administrator.simple_book.ReadingActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+            android:name=".Read"
+            android:label="@string/read"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
