@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.simple_book.Read">
+
+    <ListView
+        android:id="@+id/listView_read"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:entries="@array/list"
+        />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="btnBack8"
+        android:text="back"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
